@@ -1,0 +1,389 @@
+.main {
+    background-image: url(IN-en-20250317-TRIFECTA-perspective_26f87873-6014-460d-a6fb-1d96d85ffe5f_large.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-size: max(1000px); */
+    background-color: black;
+    position: relative;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.signin {
+    display: inline-block;
+    background-color: red;
+}
+.trnd{
+    display: inline-block;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    bottom: 629px;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+
+
+}
+
+nav div:nth-child(2) {
+    display: flex;
+    gap: 23px;
+}
+
+nav img {
+    position: relative;
+    z-index: 12;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.netflixlogo {
+    color: rgb(229, 9, 20);
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+.box2{
+    height: 110px;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px;
+    
+}
+
+.eng {
+    padding: 7px 31px 7px 31px;
+    font-size: 29px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.Sign {
+    padding: 7px 19px 7px 19px;
+    font-size: 29px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    z-index: 12;
+    position: relative;
+}
+
+.nav * {
+    position: relative;
+    z-index: 10;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+    flex-direction: column;
+    position: relative;
+}
+
+#con1 { 
+    top: 176px;
+    left: -24px;
+    padding: 97px 992px 10px 991px;
+    font-size: 105px;
+    position: relative;
+    z-index: 10;
+}
+
+#con2{
+    font-size: 38px;
+    position: relative;
+    z-index: 10;
+    top: 189px;
+    left: -35px;
+}
+#con3{
+    font-size: 31px;
+    padding: 100px;
+    font-weight: 400;
+    position: relative;
+    z-index: 10;
+    top: 129px;
+    right: 37px;
+}
+
+
+#email{
+    height: 39px;
+    width: 683px;
+    padding: 28px;
+    position: relative;
+    top: 68px;
+    right: 224px;
+    font-size: 31px;
+    border-radius: 10px;
+}
+#button{
+    height: 99px;
+    width: 342px;
+    padding: 0px 38px 1px 3px;
+    position: relative;
+    background-color: red;
+    top: -32px;
+    font-weight: 550;
+    color: white;
+    font-size: 44px;
+    border-radius: 12px;
+    left: 338px;
+}
+.hello{
+    position: relative;
+    bottom: -63px;
+    border: 2px solid white;
+    height: 305px;
+    opacity: 1;
+    background-color: black;
+    filter: blur(158px);
+}
+.design{
+    background-image: url(Screenshot\ 2025-03-26\ 191329.png);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+}
+.boxe{
+    height: 97vh;
+    background-color: black;
+    display: flex
+;
+gap: 73px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 236px 104px 74px 104px;
+}
+.box2{
+    height: 581px;
+    width: 450px;
+    border: 2px solid red;
+    background-color: black;
+    border-radius:12px ;
+}
+.box1{
+    background-image: url(https://static.toiimg.com/thumb/msid-102695095,width-400,resizemode-4/102695095.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 656px;
+    background-position: center center;
+}
+.box3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvPUeMTAy2HIX5dA9hiHtVXU1fBJgOXNH2gg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 656px;
+    position: relative;
+    background-position: center center;
+}
+.box4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3FePAB5cli5Z7Wpw32JhlQAjfKWMWg_61Vw&s);
+    background-repeat: no-repeat;
+    right: 656px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.box5{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTg5NjY0NGEtMDFhOS00MzJiLTg1NWEtZDhhNWQ5MmE4ZWIxXkEyXkFqcGc@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 656px;
+    position: relative;
+    background-position: center center;
+}
+.box6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiVUUDlJVkRe4Bzw4aF0DFqO_16Q2rQW5-Ag&s);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 2105px;
+    bottom: 658px;
+    background-size: cover;
+    background-position: center center;
+}
+.box7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQWB_9Brrb-WQZ-PGBBNOLbGfR5AzgS0tgJQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 525px;
+    background-position: center center;
+}
+.box8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9eveCLRjtX4kwzhRa1Ummt19ciRyWYHpj2w&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 525px;
+    background-position: center center;
+}
+.box9{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9AQyupQXSmjq67cascaYlzY99uYzPxLBzYQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 525px;
+    background-position: center center;
+}
+.box10{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UtAhwLDs1dLkrgoXiHWt3DI4aDCL_Lf72Q&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 525px;
+    background-position: center center;
+}
+.box11{
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2023-01-09/463849_6256013_updates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 1050px;
+    bottom: 656px;
+    background-position: center center;
+}
+.img{
+    position: relative;
+    bottom: -336px;
+    right: 81px;
+}
+.moreres{
+        
+        display: flex
+        ;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            font-size: 100px;
+            position: relative;
+            bottom: 57px;
+            gap: 34px;
+            height: +41vh;
+            
+}
+.enj{
+    height: 585px;
+    width: 604px;
+    border-radius: 37px;
+    border: 2px solid white;    
+    background-color: #26193f;
+    opacity: 0.5;
+    position: relative;
+    z-index: 0;
+    z-index: 0;
+}
+.mor{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 109px;
+}
+.enj7{
+    font-size: 46px;
+    font-weight: 500;
+    padding: 35px 48px 10px 26px;
+    position: relative;
+    z-index: 55;
+}
+.enj8{
+    font-size: 29px;
+    padding: 8px 36px 28px 26px;
+    font-weight: 400;
+}
+.enj1{
+    position: relative;
+    z-index: 0;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
